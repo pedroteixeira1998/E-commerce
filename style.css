@@ -99,6 +99,7 @@ a:hover{
 
 .text h1{
     font-size: 35pt;
+    color: black;
 }
 
 .text p{
@@ -204,4 +205,11 @@ input[type="number"]::-webkit-outer-spin-button {
 #bag{
     color: aliceblue;
     padding: 0px;
+}
+
+.container{
+    position: absolute;
+    top: 6vw;
+    left: 75vw;
+    background-color: white;
 }
