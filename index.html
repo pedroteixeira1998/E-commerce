@@ -4,14 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
     <title>E-commerce</title>
 </head>
 <body>
     <header>
-
+        <div class="left-head">
+            <div class="titulo-cabecalho">
+                <h1>Sneakers</h1>
+            </div>
+            <div class="links">
+                <a href="#">Collections</a>
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="right-head">
+            <span class="material-symbols-outlined">
+                shopping_cart
+                </span>
+            <img src="image-avatar.png" alt="" class="image-avatar">
+        </div>
     </header>
+    
     <main>
+        <div class="page">
+            <div class = "left-page">
+                <div class="big-image">
+                    <img src="image-product-1.jpg" alt="">
+                </div>
+                <div class="small-image">
+                    <img src="image-product-1-thumbnail.jpg" alt="">
+                    <img src="image-product-2-thumbnail.jpg" alt="">
+                    <img src="image-product-3-thumbnail.jpg" alt="">
+                    <img src="image-product-4-thumbnail.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-page">
+                <div class="text">
+                    <h2>Sneaker company</h2>
+                    <h1>Fall Limited Edition<br>Sneakers</h1>
+                    <p>Lorem ipsum dolor sit amet. Ad aliquam fuga et obcaecati quae sit nemo velit est odio<br> sint qui minus error ea rerum sunt non dolor reprehenderit! Sit fugiat dolorem et<br> minima magnam aut eligendi reprehenderit. Non sunt reiciendis et sapiente pariatur.</p>
+                </div>
+                <div class="price">
+                    <h1>R$250,00</h1>
+                    <i>50%</i>
+                </div>
+                <p class="desconto">R$350,00</p>
+                <div class="principal">
+                    <div class="cart">
+                        <button class="-">-</button>
+                        <input type="number" class="input-quantity" value="1" min="1">
+                        <button class="+">+</button>
+                    </div>      
+                    <div class="add-cart">
+                        <span class="material-symbols-outlined" id = "bag">
+                                shopping_bag
+                        </span>
+                        <button class="button-cart">Add to cart</button>
+                    </div>     
+                </div>    
+                
+                
 
+            </div>
+        </div>        
     </main>
     <script>
         
