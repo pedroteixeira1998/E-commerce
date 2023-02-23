@@ -32,6 +32,11 @@ a{
     
 }
 
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
 .right-head{
     display: flex;
     align-items: center;
@@ -40,10 +45,20 @@ a{
 
 .material-symbols-outlined{
     color: hsl(220, 14%, 75%);
+    cursor: pointer;
 }
 
+.material-symbols-outlined:hover{
+    color: black;
+    
+}
 .image-avatar{
     width: 50px;
+    cursor: pointer;
+}
+
+.image-avatar:hover{
+    width: 52px;
 }
 
 .page{
@@ -67,7 +82,15 @@ a{
 .small-image img{
     width: 5vw;
     border-radius: 20px;
+    cursor: pointer;
 }
+
+.small-image img:hover{
+    opacity: 0.8;
+}
+
+
+
 
 .text h2{
     font-size: 15pt;
@@ -119,6 +142,11 @@ a{
     background-color: hsl(223, 64%, 98%);
     font-size: 20pt;    
     font-weight: 700;
+    cursor: pointer;
+}
+
+.cart button:hover{
+    opacity: 0.8;
 }
  
 /* Remove o spin button */
@@ -149,6 +177,7 @@ input[type="number"]::-webkit-outer-spin-button {
     border-radius: 4px;
     color: aliceblue;
     font-weight: 700;
+    cursor: pointer;
     
 }
 
@@ -165,9 +194,13 @@ input[type="number"]::-webkit-outer-spin-button {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     
 }
 
+.add-cart:hover{
+    opacity: 0.8;
+}
 #bag{
     color: aliceblue;
     padding: 0px;
