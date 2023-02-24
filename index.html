@@ -60,14 +60,14 @@
                     <div class="cart">
                         <button class="-" onclick="decrement()">-</button>
                         
-                        <input type="number" class="input-quantity" value="1" id="input-quantity">
+                        <input type="number" class="input-quantity" value = 0 id="produto">
                         <button class="+" onclick="increment()">+</button>
                     </div>      
                     <div class="add-cart">
                         <span class="material-symbols-outlined" id = "bag">
                                 shopping_bag
                         </span>
-                        <button type = "submit" class="button-cart">Add to cart</button>
+                        <button onclick="produto.adicionar()" type = "submit" class="button-cart">Add to cart</button>
                     </div>     
                 </div>    
             </div>
@@ -87,8 +87,8 @@
                     <div class="box-price"> 
                         <p class="box-price1">R$250,00 x </p>
                         <p class="box-price2">1</p>
-                        <p class="box-price3">R$250,00</p>
-                        <span class="material-symbols-outlined" id = "lixeira">
+                        <p  id="valor" class="box-price3">R$250,00</p>
+                        <span class="material-symbols-outlined" id = "lixeira" onclick="produto.cancelar()">
                             delete
                             </span>
                            

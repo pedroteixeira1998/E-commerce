@@ -3,12 +3,12 @@ function trocadefotos(e){
 }
 
 function increment() {
-    var input = document.getElementById('input-quantity');
+    var input = document.getElementById('produto');
     input.value = parseInt(input.value) + 1;
   }
 
 function decrement(){
-    var input = document.getElementById('input-quantity');
+    var input = document.getElementById('produto');
     if (parseInt(input.value) > 0) {
         input.value = parseInt(input.value) - 1;
 }
@@ -26,4 +26,5 @@ button.addEventListener("click", function(){
     } else{
         container.style.display = "none";
     }
-})
+});
+
