@@ -2,6 +2,10 @@ function trocadefotos(e){
     document.querySelector('#photo').src = e;
 }
 
+function trocadefoto(e){
+    document.querySelector('#photo1').src = e;
+}
+
 function increment() {
     var input = document.getElementById('produto');
     input.value = parseInt(input.value) + 1;
@@ -41,3 +45,4 @@ const toggleModal = () =>{
 [openModalButton, closeModalButton, fade]. forEach((el) => {
     el.addEventListener("click", () => toggleModal());
 });
+
