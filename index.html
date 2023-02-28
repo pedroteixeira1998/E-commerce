@@ -49,11 +49,11 @@
             <div class="right-page">
                 <div class="text">
                     <h2>Sneaker company</h2>
-                    <h1>Fall Limited Edition<br>Sneakers</h1>
+                    <h1 id="productName">Fall Limited Edition<br>Sneakers</h1>
                     <p>Lorem ipsum dolor sit amet. Ad aliquam fuga et obcaecati quae sit nemo velit est odio<br> sint qui minus error ea rerum sunt non dolor reprehenderit! Sit fugiat dolorem et<br> minima magnam aut eligendi reprehenderit. Non sunt reiciendis et sapiente pariatur.</p>
                 </div>
                 <div class="price">
-                    <h1>R$250,00</h1>
+                    <h1 type="number" id="productPrice" value="250">250.00</h1>
                     <i>50%</i>
                 </div>
                 <p class="desconto">R$350,00</p>
@@ -74,36 +74,16 @@
             </div>
         </div> 
         <div class="container" id="container">
-            <div id="fade-cart" class="hide-cart"></div>
-            <div id="modal-cart" class="hide-cart">
-                <button id="close-modal-cart">X</button>
-                <div>
-                    <h1>Cart</h1>
-                </div>
-                <div class="box">
-                    <div class="box-image">
-                        <img src="" alt="">
-                    </div>
-                    <div class="box1">
-                        <div class="text">
-                            <p>Fall Limited Edition Sneakers</p>
-                        </div>
-                        <div class="box-price"> 
-                            <p class="box-price1">R$250,00 x </p>
-                            <p class="box-price2">1</p>
-                            <p  id="valor" class="box-price3">R$250,00</p>
-                            <span class="material-symbols-outlined" id = "lixeira" onclick="produto.cancelar()">
-                                delete
-                                </span>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div>
-                <button>Checkout</button>
+                <h1>Cart</h1>
             </div>
-        </div>
+            <div class="box">
+                <button id="botão">Checkout</button>
+            </div>        
+                  
+                
+        </div>    
+        
         <div class="page">
             <div id="fade" class="hide"></div>
             <div id="modal" class="hide">
@@ -119,10 +99,7 @@
                         <img src="imagens/image-product-4-thumbnail.jpg" alt="" onclick="trocadefoto('imagens/image-product-4.jpg')">
                     </div>
             </div>  
-            </div>     
-                
-
-              
+            </div>             
     </main>
     <script src = "JavaScript/script.js">
        
@@ -130,4 +107,8 @@
     
     
 </body>
-</html>
+</html>   
+    
+                
+
+              
